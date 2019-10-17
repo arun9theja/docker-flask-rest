@@ -1,44 +1,18 @@
-# Docker Jenkins
-
-This compose file allows to bootstrap an instance of the latest
-Jenkins [Docker image](https://hub.docker.com/_/jenkins/) mounting a persistent data storage within the working directory of the host machine.
-
-```
-
-/var/jenkins_home is mounted under ${PWD}/jenkins
-
-```
+# Flask rest
 
 ## Installation
 
-docker-compose up -d
 
 ### Requirements
 
-Docker Version >= 1.12.2
 
 ### Setup
 
-git clone git@github.com:p0bailey/docker-jenkins.git
+
 
 ## Usage
 
-```
-docker-compose up -d
-```
 
-Grab Jenkins initial admin password.
-```
-cat jenkins/secrets/initialAdminPassword
-```
-
-Point the browser to:
-
-```
-127.0.0.1:8080
-```
-
-Go and set up Jenkins.
 
 ## Contributing
 
